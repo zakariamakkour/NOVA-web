@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVA - Organic Technology</title>
+    <meta name="description" content="NOVA - Premium warm minimalist electronics" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              nova: {
+                dark: '#050A14',
+                darker: '#020408',
+                card: '#0A1220',
+                text: '#EBE7DE',
+                muted: '#9CA3AF'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;500;700&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+      
+      html {
+        scroll-behavior: auto;
+        scroll-padding-top: 80px;
+      }
+
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #F5F2EB; /* Warm cream background */
+        color: #2C2A26; /* Warm dark charcoal */
+      }
+
+      /* Dark mode body override */
+      .dark body {
+        background-color: #050A14;
+        color: #EBE7DE;
+      }
+      
+      h1, h2, h3, h4, .font-serif {
+        font-family: 'Playfair Display', serif;
+      }
+
+      /* Arabic Font Overrides */
+      :lang(ar) body {
+        font-family: 'Cairo', sans-serif;
+      }
+      :lang(ar) h1, :lang(ar) h2, :lang(ar) h3, :lang(ar) h4, :lang(ar) .font-serif {
+        font-family: 'Amiri', serif;
+      }
+
+      /* Hide scrollbar for clean aesthetic in horizontal scrolls if any */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      @keyframes fade-in-up {
+        0% { opacity: 0; transform: translateY(30px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      .animate-fade-in-up {
+        animation: fade-in-up 1s cubic-bezier(0.2, 1, 0.3, 1) forwards;
+      }
+      
+      .animate-delay-200 { animation-delay: 0.2s; }
+      .animate-delay-400 { animation-delay: 0.4s; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
