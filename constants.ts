@@ -277,7 +277,7 @@ const RAW_PRODUCTS = {
       tagline: 'Snack smart, stay healthy!',
       description: 'The SmartSnack container monitors calories and nutrition, helping you manage your diet.',
       longDescription: 'Snack smart, stay healthy! The SmartSnack container monitors calories and nutrition, helping you manage your diet with ease. Perfect for office snacks, gym fuel, or daily meals. Its vacuum-seal technology keeps food fresh 5x longer than standard containers.',
-      price: 39.99,
+      price: 434.78,
       category: 'Nutrition',
       imageUrl: '/images/NOVA-SmartSnack.jpg',
       features: ['Calorie Tracking', 'Freshness Seal', 'Portion Control']
@@ -299,7 +299,7 @@ const RAW_PRODUCTS = {
       tagline: 'Drink clean water effortlessly!',
       description: 'Monitors water purity and filter life, sending notifications when it’s time to replace.',
       longDescription: 'Drink clean water effortlessly! The NOVA SmartFilter monitors water purity and filter life, sending notifications when it’s time to replace. Safe, smart, and eco-friendly. It attaches to any standard faucet and removes 99% of contaminants while retaining healthy minerals.',
-      price: 34.99,
+      price: 217.39,
       category: 'Well-Being',
       imageUrl: '/images/NOVA-SmartFilter.jpg',
       features: ['Purity Sensor', 'Filter Alerts', 'Eco-Flow']
@@ -333,7 +333,7 @@ const RAW_PRODUCTS = {
       tagline: 'Breathe better, live clearer.',
       description: 'Silent purification with smart air quality sensing. Removes dust, pollen, and VOCs.',
       longDescription: 'Breathe better, live clearer. Lucid Origin purifies your air quietly while smart sensors monitor and display real-time air quality. It captures ultra-fine particles and odors with a dual HEPA + carbon system for a calmer, healthier home.',
-      price: 129.99,
+      price: 760.87,
       category: 'Well-Being',
       imageUrl: '/images/Lucid_Origin_A_futuristic_smart_air_purifier_with_smooth_matte_0.jpg',
       features: ['HEPA + Carbon', 'Silent Mode', 'Air Quality Sensor']
@@ -379,7 +379,7 @@ const RAW_PRODUCTS = {
       tagline: 'Grignotez malin, restez sain !',
       description: 'Le conteneur SmartSnack surveille les calories et la nutrition pour gérer votre alimentation.',
       longDescription: 'Grignotez malin, restez sain ! Le conteneur SmartSnack surveille les calories et la nutrition, vous aidant à gérer votre alimentation facilement. Parfait pour les collations au bureau ou le carburant pour la gym.',
-      price: 39.99,
+      price: 434.78,
       category: 'Nutrition',
       imageUrl: '/images/NOVA-SmartSnack.jpg',
       features: ['Suivi Calories', 'Sceau Fraîcheur', 'Contrôle Portion']
@@ -401,7 +401,7 @@ const RAW_PRODUCTS = {
       tagline: 'Buvez de l\'eau propre sans effort !',
       description: 'Surveille la pureté de l\'eau et la durée de vie du filtre, envoyant des notifications.',
       longDescription: 'Buvez de l\'eau propre sans effort ! Le SmartFilter NOVA surveille la pureté de l\'eau et la vie du filtre, envoyant des notifications lorsqu\'il est temps de le remplacer. Sûr, intelligent et écologique.',
-      price: 34.99,
+      price: 217.39,
       category: 'Well-Being',
       imageUrl: '/images/NOVA-SmartFilter.jpg',
       features: ['Capteur Pureté', 'Alertes Filtre', 'Éco-Flux']
@@ -435,7 +435,7 @@ const RAW_PRODUCTS = {
       tagline: 'Respirez mieux, vivez plus clair.',
       description: 'Purification silencieuse avec capteur de qualité d’air. Élimine poussière, pollen et COV.',
       longDescription: 'Respirez mieux, vivez plus clair. Lucid Origin purifie l’air en silence tandis que des capteurs intelligents surveillent la qualité en temps réel. Le système double HEPA + carbone capture les particules fines et les odeurs pour un intérieur plus sain.',
-      price: 129.99,
+      price: 760.87,
       category: 'Well-Being',
       imageUrl: '/images/Lucid_Origin_A_futuristic_smart_air_purifier_with_smooth_matte_0.jpg',
       features: ['HEPA + Carbone', 'Mode Silencieux', 'Capteur Qualité Air']
@@ -481,7 +481,7 @@ const RAW_PRODUCTS = {
       tagline: 'تناول بذكاء، ابق بصحة!',
       description: 'تراقب حاوية الوجبات الذكية السعرات الحرارية والتغذية لمساعدتك في إدارة نظامك الغذائي.',
       longDescription: 'تناول بذكاء، ابق بصحة! تراقب حاوية الوجبات الذكية السعرات الحرارية والتغذية، مما يساعدك على إدارة نظامك الغذائي بسهولة. مثالية لوجبات المكتب الخفيفة.',
-      price: 39.99,
+      price: 434.78,
       category: 'Home',
       imageUrl: '/images/NOVA-SmartSnack.jpg',
       features: ['تتبع السعرات', 'ختم النضارة', 'تحكم بالححص']
@@ -503,7 +503,7 @@ const RAW_PRODUCTS = {
       tagline: 'اشرب مياه نظيفة دون عناء!',
       description: 'يراقب نقاء الماء وعمر الفلتر، ويرسل إشعارات عندما يحين وقت الاستبدال.',
       longDescription: 'اشرب مياه نظيفة دون عناء! يراقب فلتر نوفا الذكي نقاء الماء وعمر الفلتر، ويرسل إشعارات عندما يحين وقت الاستبدال. آمن وذكي وصديق للبيئة.',
-      price: 34.99,
+      price: 217.39,
       category: 'Home',
       imageUrl: '/images/NOVA-SmartFilter.jpg',
       features: ['مستشعر النقاء', 'تنبيهات الفلتر', 'تدفق بيئي']
@@ -537,7 +537,7 @@ const RAW_PRODUCTS = {
       tagline: 'تنفس أفضل، عيش أنقى.',
       description: 'تنقية صامتة مع مستشعر جودة الهواء. يزيل الغبار واللقاح والمواد العضوية المتطايرة.',
       longDescription: 'تنفس أفضل، عيش أنقى. يقوم منقّي الهواء لوسيد أورجن بتنقية الهواء بهدوء بينما تراقب المستشعرات الذكية جودة الهواء لحظياً. يلتقط الجسيمات الدقيقة والروائح عبر نظام مزدوج HEPA + كربون لبيت أكثر صحة.',
-      price: 129.99,
+      price: 760.87,
       category: 'Well-Being',
       imageUrl: '/images/Lucid_Origin_A_futuristic_smart_air_purifier_with_smooth_matte_0.jpg',
       features: ['HEPA + كربون', 'وضع صامت', 'مستشعر جودة الهواء']
