@@ -96,7 +96,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavClick, cartCount, onOpenCart, lang
       >
         <div className="max-w-[1800px] mx-auto px-8 flex items-center justify-between relative">
           {/* Logo */}
-          <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); onNavClick(e, ''); }} className={`text-3xl font-serif font-medium tracking-tight z-50 relative transition-colors duration-500 ${textColorClass} flex items-center gap-3 whitespace-nowrap`}><img src="/images/GOGO NOVA.jpg" alt="NOVA logo" className="h-6 w-6 object-cover rounded-sm" /><span>{BRAND_NAME}</span></a>
+          <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); onNavClick(e, ''); }} className={`text-3xl font-serif font-medium tracking-tight z-50 relative transition-colors duration-500 ${textColorClass} flex items-center gap-3 whitespace-nowrap`}><img src="/images/GOGO NOVA.png" alt="NOVA logo" className="h-6 w-6 object-cover rounded-sm" /><span>{BRAND_NAME}</span></a>
           
           {/* Center Links - Desktop */}
           <div className={`hidden md:flex items-center gap-12 text-sm font-medium tracking-widest uppercase transition-colors duration-500 ${textColorClass} absolute left-1/2 -translate-x-1/2`}>
